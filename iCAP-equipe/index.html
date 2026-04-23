@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Équipe service iCAP</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #f4f6f8;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    header {
+        background: linear-gradient(135deg, #FF0000, #FF00FF);
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2.4em;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        max-width: 900px;
+        margin: auto;
+        font-size: 1.1em;
+    }
+
+    section {
+        padding: 50px 30px;
+    }
+
+    .pole-title {
+        font-size: 2em;
+        color: #ff0000;
+        margin-bottom: 30px;
+        border-left: 6px solid #9f0909;
+        padding-left: 15px;
+    }
+
+.pole-description{
+    max-width: 100%;
+    margin: 0 0 30px 0;
+    font-size: 1rem;
+    line-height: 1.7;
+    color:#555;
+}
+
+    .team-grid {
+        display: grid;
+      grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+
+  .card{
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 8px 18px rgba(0,0,0,0.08);
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 14px 24px rgba(0,0,0,0.12);
+}
+
+.card img{
+    width:80%;
+    height:240px;
+    object-fit:cover;
+    object-position:center;   
+    display:block;           
+    margin:0 auto; 
+    background:#f2f2f2;
+}
+
+.card-content{
+    padding:18px;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+
+/* Pré-titre */
+.pre-title{
+    font-size:0.82rem;
+    font-weight:400;
+    letter-spacing:0.5px;
+    text-transform:uppercase;
+    color:#7a7a7a;
+    margin-bottom:6px;
+}
+
+/* Nom */
+.nom{
+    font-size:1.25rem;
+    font-weight:700;
+    color:#ff0000;
+    margin-bottom:6px;
+    line-height:1.3;
+}
+
+/* Titre */
+.role{
+    font-size:0.96rem;
+    font-weight:700;
+    color:#333;
+    margin-bottom:14px;
+}
+
+/* Missions */
+.missions-title{
+    font-size:0.88rem;
+    font-weight:700;
+    color:#801010;
+    margin-bottom:6px;
+}
+
+.missions-list{
+    margin:0 0 14px 18px;
+    padding:0;
+    color:#555;
+    font-size:0.93rem;
+    line-height:1.55;
+}
+
+.missions-list li{
+    margin-bottom:4px;
+}
+
+/* Référent */
+.referent{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    background:#e6e6e6;
+    border-left:4px solid #827870;
+    padding:10px 12px;
+    border-radius:8px;
+    font-size:0.9rem;
+    font-weight:600;
+    color:#5a5550;
+    margin-top:auto;
+}
+
+.icon{
+    font-size:1rem;
+}
+
+    footer {
+        background: #801010;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    @media(max-width:768px){
+        header h1 {
+            font-size: 2em;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Le service iCAP</h1>
+    <p>
+      Et quoniam apud eos ut in capite mundi morborum acerbitates celsius dominantur, ad quos vel sedandos omnis professio medendi torpescit, excogitatum est adminiculum sospitale nequi amicum perferentem similia videat, additumque est cautionibus paucis remedium aliud satis validum, ut famulos percontatum missos quem ad modum valeant noti hac aegritudine colligati, non ante recipiant domum quam lavacro purgaverint corpus. ita etiam alienis oculis visa metuitur labes.
+<br>
+Pandente itaque viam fatorum sorte tristissima, qua praestitutum erat eum vita et imperio spoliari, itineribus interiectis permutatione iumentorum emensis venit Petobionem oppidum Noricorum, ubi reseratae sunt insidiarum latebrae omnes, et Barbatio repente apparuit comes, qui sub eo domesticis praefuit, cum Apodemio agente in rebus milites ducens, quos beneficiis suis oppigneratos elegerat imperator certus nec praemiis nec miseratione ulla posse deflecti.
+    </p>
+</header>
+
+<!-- PÔLE 1 -->
+<section>
+    <h2 class="pole-title">Direction</h2>
+
+    <div class="team-grid">
+
+        <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Nom -->
+        <h3>Cédric Ray Garreau</h3>
+
+        <!-- Titre -->
+        <div class="role">Directeur</div>
+
+     
+
+    </div>
+</div>
+
+
+        <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Nom -->
+        <h3>Franck Ricotta</h3>
+
+        <!-- Titre -->
+        <div class="role">Directeur administratif</div>
+
+      
+
+    </div>
+</div>
+
+
+        <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Nom -->
+        <h3>Gilles Bonavitacola</h3>
+
+        <!-- Titre -->
+        <div class="role">Directeur opérationnel<br>
+       Responsable pôle plateforme</div>
+        
+
+
+    </div>
+</div>
+
+
+        <div class="card">
+    <img src="images/photo2.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Nom -->
+        <h3>Nora Van Reeth</h3>
+
+        <!-- Titre -->
+        <div class="role">Directrice projets pédagogique<br>
+        Responsable pôle innovation pédagogique </div>
+
+      
+
+    </div>
+</div>
+
+     
+
+    </div>
+</section>
+
+<!-- PÔLE 2 -->
+<section>
+    <h2 class="pole-title">Pôle Innovation Pédagogique</h2>
+    <p class="pole-description">
+     Et quoniam apud eos ut in capite mundi morborum acerbitates celsius dominantur, ad quos vel sedandos omnis professio medendi torpescit, excogitatum est adminiculum sospitale nequi amicum perferentem similia videat, additumque est cautionibus paucis remedium aliud satis validum, ut famulos percontatum missos quem ad modum valeant noti hac aegritudine colligati, non ante recipiant domum quam lavacro purgaverint corpus. ita etiam alienis oculis visa metuitur labes.
+    </p>
+    <div class="team-grid">
+
+        <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Chargé d'animation et d'ingénierie en formation tout au long de la vie</div>
+
+        <!-- Nom -->
+        <div class="nom">Basile Bailly</div>
+
+        <!-- Titre -->
+        <div class="role">Conseiller pédagogique</div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargée du déploiement de l'offre de formation en pédagogie </li>
+            <li>Chargé de l'accompagnement et de la valorisation des initiatives pédagogiques en sciences et métiers de l'enseignement </li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référent pédagogie inclusive
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Chargé d'animation et d'ingénierie en formation tout au long de la vie </div>
+
+        <!-- Nom -->
+        <div class="nom">Philippe De La Forest Divonne</div>
+
+        <!-- Titre -->
+        <div class="role">Coordinateur de projets pédagogiques TEDS</div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé du déploiement de l'offre de formation TEDS </li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référent TEDS
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <img src="images/photo2.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Assistante des technologies de l'information et de la communication  
+</div>
+
+        <!-- Nom -->
+        <div class="nom">Karine Detranchant</div>
+
+        <!-- Titre -->
+        <div class="role">Conceptrice de modules de formations en ligne</div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargée du déploiement de l'offre de formation Moodle, outils numériques, accessibilité et offre aux étudiants</li>
+            <li>Chargée de veille et d’expérimentation de solutions numériques pour l'enseignement </li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référente Accessibilité Numérique
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <img src="images/photo2.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Ingénieure pour l'enseignement numérique </div>
+
+        <!-- Nom -->
+        <div class="nom">Marianne Gayte </div>
+
+        <!-- Titre -->
+        <div class="role">Conceptrice de modules de formations en ligne</div>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référente TEDS
+        </div>
+
+    </div>
+</div>
+       
+
+        <div class="card">
+    <img src="images/photo2.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Ingénieure pour l'enseignement numérique</div>
+
+        <!-- Nom -->
+        <div class="nom">Manon Guirand</div>
+
+        <!-- Titre -->
+        <div class="role">Conseillère pédagogique</div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargée du déploiement de l'offre de formation Intelligence artificielle</li>
+            <li>Chargé de l'accompagnement et de la valorisation des initiatives pédagogiques en santé et sports</li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référente Intelligence Artificielle
+ 
+        </div>
+
+    </div>
+</div>
+
+        <div class="card">
+    <img src="images/photo2.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Chargé d'animation et d'ingénierie en formation tout au long de la vie</div>
+
+        <!-- Nom -->
+        <div class="nom">Elodie Masclaux</div>
+
+        <!-- Titre -->
+        <div class="role">Conseillère pédagogique</div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé du déploiement du dispositif NEC / Doctorants</li>
+            <li>Chargé de l’évaluation et de l’amélioration des dispositifs pédagogiques</li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référente EEA
+        </div>
+
+    </div>
+</div>
+
+
+        <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Ingénieur en technologies de l'information et de la communication</div>
+
+        <!-- Nom -->
+        <div class="nom">Juan Pablo Parra Torres</div>
+
+
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé de mission vidéo inclusive INCLUDE </li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référent Vidéo Inclusive
+        </div>
+
+    </div>
+</div>
+
+
+
+</div>
+</div>
+</section>
+
+<!-- PÔLE 3 -->
+<section>
+    <h2 class="pole-title">Pôle Plateforme</h2>
+    <p class="pole-description">
+      Et quoniam apud eos ut in capite mundi morborum acerbitates celsius dominantur, ad quos vel sedandos omnis professio medendi torpescit, excogitatum est adminiculum sospitale nequi amicum perferentem similia videat, additumque est cautionibus paucis remedium aliud satis validum, ut famulos percontatum missos quem ad modum valeant noti hac aegritudine colligati, non ante recipiant domum quam lavacro purgaverint corpus. ita etiam alienis oculis visa metuitur labes.
+    </p>
+    <div class="team-grid">
+
+       
+        <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Assistant des technologies de l’information et de la communication</div>
+
+        <!-- Nom -->
+        <div class="nom">Amandine Colotto</div>
+
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargée de la formation et l’assistance sur Moodle </li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référente paramétrage et personnalisation avancés des cours
+        </div>
+
+    </div>
+</div>
+
+              <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Assistant statisticien  </div>
+
+        <!-- Nom -->
+        <div class="nom">Mickael De Almeida</div>
+
+        <!-- Titre -->
+        <div class="role">Assistant statisticien  </div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé de l’offre de service évaluations  </li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référent analyses statistiques
+        </div>
+
+    </div>
+</div>
+
+
+              <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Administrateur systèmes et réseaux </div>
+
+        <!-- Nom -->
+        <div class="nom">Alexandre Eteocle</div>
+
+        <!-- Titre -->
+        <div class="role">Administrateur systèmes et réseaux </div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé des infrastructures de pédagogie numérique </li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référent DEVOPS et IA
+        </div>
+
+    </div>
+</div>
+
+              <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Ingénieur en ingénierie logicielle  </div>
+
+        <!-- Nom -->
+        <div class="nom">Nicolas Jacquemet </div>
+
+ 
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé du développement Moodle, Unity et des applications pédagogiques </li>
+        </ul>
+
+    </div>
+</div>
+
+
+              <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Ingénieur en ingénierie logicielle </div>
+
+        <!-- Nom -->
+        <div class="nom">Eddy Marques </div>
+
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé du développement du portail de l’offre de formation Lyon 1 Université </li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référent UX Design
+        </div>
+
+    </div>
+</div>
+
+
+              <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Assistant des technologies de l’information et de la communication</div>
+
+        <!-- Nom -->
+        <div class="nom">Anthony Masson</div>
+
+        <!-- Titre -->
+        <div class="role">Administrateur systèmes et réseaux </div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé de la formation et l’assistance sur Moodle</li>
+            <li>Chargé de médiatisation vidéo des supports d’accompagnement </li>
+        </ul>
+
+    </div>
+</div>
+
+
+
+
+              <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Technicien d’exploitation, d’assistance et de traitement de l’informatio </div>
+
+        <!-- Nom -->
+        <div class="nom">Mikael Renaud</div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé du traitement et de l’analyse des évaluations (papier et Moodle)  </li>
+        </ul>
+
+    </div>
+</div>
+
+              <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">xxx </div>
+
+        <!-- Nom -->
+        <div class="nom">Florian Varenne</div>
+
+        <!-- Titre -->
+        <div class="role">Gestionnaire d’application / assistance support </div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé de l’administration de GLPI et du support aux utilisateurs</li>
+        </ul>
+
+
+    </div>
+</div>
+
+
+    </div>
+</section>
+<!--Pôle Creation -->
+
+<section>
+    <h2 class="pole-title">Pôle Création multimedia</h2>
+    <p class="pole-description">
+      Et quoniam apud eos ut in capite mundi morborum acerbitates celsius dominantur, ad quos vel sedandos omnis professio medendi torpescit, excogitatum est adminiculum sospitale nequi amicum perferentem similia videat, additumque est cautionibus paucis remedium aliud satis validum, ut famulos percontatum missos quem ad modum valeant noti hac aegritudine colligati, non ante recipiant domum quam lavacro purgaverint corpus. ita etiam alienis oculis visa metuitur labes.
+    </p>
+    <div class="team-grid">
+
+       
+        <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Technicien photographe  
+</div>
+
+        <!-- Nom -->
+        <div class="nom">Nadine Beysseriat</div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargée de photographie scientifique</li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+           Référente en photogrammétrie (3D) et photo 360° 
+        </div>
+
+    </div>
+</div>
+
+              <div class="card">
+    <img src="images/photo2.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Assistant des technologies de l’information et de la communication   </div>
+
+        <!-- Nom -->
+        <div class="nom">Lucie Guignot</div>
+
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargée d’Illustration et d’animation 2D </li>
+        </ul>
+
+    </div>
+</div>
+
+
+              <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Assistant systèmes et techniques de l'audiovisuel et du multimédia </div>
+
+        <!-- Nom -->
+        <div class="nom">Julien Manganoni</div>
+
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé de productions audiovisuelles</li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référent captation, diffusion live  et visites virtuelles 
+        </div>
+
+    </div>
+</div>
+
+              <div class="card">
+    <img src="images/photo1.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Ingénieur des systèmes et techniques audiovisuels et multimédia </div>
+
+        <!-- Nom -->
+        <div class="nom">Olivier Rastello </div>
+
+       <!-- Titre -->
+        <div class="role">Responsable du Pôle Création Multimédia</div>
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargé d’Infographie et développement 3D   </li>
+        </ul>
+
+    </div>
+</div>
+
+
+              <div class="card">
+    <img src="images/photo2.jpg" alt="">
+
+    <div class="card-content">
+
+        <!-- Pré-titre -->
+        <div class="pre-title">Ingénieure des systèmes et techniques audiovisuels et multimédia   </div>
+
+        <!-- Nom -->
+        <div class="nom">Solaine Reynaud </div>
+
+
+        <!-- Missions -->
+        <ul class="missions-list">
+            <li>Chargée de productions audiovisuelles  </li>
+            <li>Chargée du déploiement de l'offre de formation audiovisuel </li>
+        </ul>
+
+        <!-- Référent -->
+        <div class="referent">
+            <span class="icon">💡</span>
+            Référente vidéo et podcast pédagogiques 
+        </div>
+
+    </div>
+</div>
+
+
+    </div>
+</section>
+
+<footer>
+    Page équipe iCAP - Draft 2026
+</footer>
+
+</body>
+</html>
